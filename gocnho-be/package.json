@@ -1,10 +1,25 @@
 {
   "name": "gocnho-be",
-  "version": "0.0.1",
-  "description": "CozVibe Coffee Backend - Powered by NestJS + MongoDB",
+  "version": "0.1.0",
+  "description": "GocNho – Backend API service built with NestJS for productivity and lifestyle applications.",
   "author": "trminhhieu <trminhhieu.work@gmail.com>",
   "private": true,
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trminhhieu2208/GocNho.git"
+  },
+  "keywords": [
+    "GocNho",
+    "gocnho",
+    "trminhhieu",
+    "NestJS",
+    "API",
+    "backend",
+    "typescript",
+    "productivity",
+    "lifestyle"
+  ],
   "scripts": {
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
@@ -20,39 +35,11 @@
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
-    "@nestjs/bull": "^11.0.0",
-    "@nestjs/cache-manager": "^3.0.0",
     "@nestjs/common": "^11.0.1",
     "@nestjs/core": "^11.0.1",
-    "@nestjs/jwt": "^11.0.0",
-    "@nestjs/mongoose": "^11.0.0",
-    "@nestjs/passport": "^11.0.0",
     "@nestjs/platform-express": "^11.0.1",
-    "@nestjs/platform-socket.io": "^11.0.0",
-    "@nestjs/websockets": "^11.0.0",
-    "bcrypt": "^5.1.1",
-    "bull": "^4.10.4",
-    "cache-manager": "^6.0.4",
-    "cache-manager-ioredis": "^2.0.0",
-    "class-transformer": "^0.5.1",
-    "class-validator": "^0.14.0",
-    "compression": "^1.7.4",
-    "cookie-parser": "^1.4.6",
-    "cors": "^2.8.5",
-    "dotenv-flow": "^4.0.0",
-    "helmet": "^7.0.0",
-    "hpp": "^0.2.3",
-    "lru-cache": "^10.0.0",
-    "mongoose": "^8.3.1",
-    "passport": "^0.7.0",
-    "passport-local": "^1.0.0",
-    "rate-limiter-flexible": "^2.3.7",
     "reflect-metadata": "^0.2.2",
-    "resend": "^4.5.1",
-    "rxjs": "^7.8.1",
-    "socket.io": "^4.7.5",
-    "swagger-ui-express": "^4.6.3",
-    "unleash-client": "^5.5.4"
+    "rxjs": "^7.8.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.2.0",
@@ -79,8 +66,7 @@
     "ts-node": "^10.9.2",
     "tsconfig-paths": "^4.2.0",
     "typescript": "^5.7.3",
-    "typescript-eslint": "^8.20.0",
-    "glob": "^10.3.10"
+    "typescript-eslint": "^8.20.0"
   },
   "jest": {
     "moduleFileExtensions": [
